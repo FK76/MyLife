@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cdf5f0</color>
+    <color name="colorPrimaryDark">#377777</color>
+    <color name="colorAccent">#19f4d6</color>
+    <color name="colorblack">#042420</color>
+    <color name="colorwhire">#cbfaf4</color>
+    <color name="colorfrag">#64a5b6</color>
+
+
+</resources>

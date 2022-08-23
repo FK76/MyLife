@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id= "@+id/Login"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-80dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:background="@drawable/button_des"
+            android:text="Login" />
+        <Button
+            android:id = "@+id/Register"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="80dp"
+            android:backgroundTint="@color/colorAccent"
+            android:background="@drawable/button_des"
+            android:text="Register" />
+
+
+
+        <EditText
+            android:id="@+id/ETemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/colorblack"
+            android:inputType="textPersonName"
+            android:hint="E-mail" />
+        <ImageView
+            android:id="@+id/imageViewLogotip"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="-35dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_person_outline_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorblack"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:inputType="textPersonName"
+            android:hint="Name" />
+
+
+        <EditText
+            android:id="@+id/ETpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/colorblack"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:inputType="textPersonName"
+
+            android:hint="Password" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-35dp"
+            app:srcCompat="@drawable/ic_vpn_key_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_des"
+            android:backgroundTint="@color/colorAccent"
+            android:text="login" />
+
+    </LinearLayout>
+</LinearLayout>
